@@ -20,14 +20,14 @@
             </ul>
         </div>
         <div id="mainbody">
-            <div id="rightmain">
+            
             <div class="block">
-                coming soon
+                <a href="readiness.php">Team Readiness Activity</a>
             </div>
             <div class="block">
                 ...
             </div>
-            </div>
+            
         </div>
         </div>
         </div>
