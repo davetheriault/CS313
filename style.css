@@ -52,7 +52,6 @@ body {
 
 #rightmain {
     float: right;
-    width: 550px;
 }
 
 .block {
@@ -61,7 +60,6 @@ body {
     color: darkred;
     padding: 1em;
     margin-bottom: .5em;
-    width: 60%;
 }
 
 .block h2 {
