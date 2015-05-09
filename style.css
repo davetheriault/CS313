@@ -53,3 +53,7 @@ body {
     color: darkred;
     padding: 1em;
 }
+
+.block h2 {
+    display: inline;
+}
