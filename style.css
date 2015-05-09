@@ -11,11 +11,17 @@ body {
 }
 
 #topnav h1 {
+    margin: .5em;
     float: left;
     font: molot, telegrafico, arial black, impact, sans-serif;
     color: darkred;
 }
 
 #topnavbar {
+    margin: .5em;
+    float: left;
+}
+
+#topnavbar li {
     float: left;
 }
