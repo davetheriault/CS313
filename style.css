@@ -17,7 +17,7 @@ body {
 #topnav {
     width: 100%;
     height: 3em;
-    background-color: white;
+    background-color: lightyellow;
     font: molot, telegrafico, arial black, impact, sans-serif;
     font-size: 20pt;
     color: darkred;
@@ -60,7 +60,7 @@ body {
     background-color: lightyellow;
     color: darkred;
     padding: 1em;
-    margin-bottom: .5em;
+    margin-bottom: 1em;
 }
 
 .block h2 {
