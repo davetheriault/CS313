@@ -28,7 +28,11 @@
                 <br>
                 Your are majoring in <?php echo $_POST["major"]; ?><br>
                 <br>
-                You have been to <?php if(isset($_POST["visited"])){ echo $_POST . "<br>"; } ?>
+                You have been to <?php foreach ($_POST["visited"] as $vst) {
+                                        if(isset($vst)){
+                                            echo $vst . "<br>";
+                                        } ?>
+ }
             </div>
             <div class="block">
                 ...
