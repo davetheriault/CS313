@@ -50,8 +50,10 @@
                 <div class="block">
                         Comments: <br>
                         <textarea name="comment" form="about" rows="4" cols="60"></textarea>
+                </div>
+            <div class="block">
+                <input type="submit" form="about">
             </div>
-        
         </div>
         </div>
     </body>
