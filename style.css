@@ -7,8 +7,13 @@ body {
 #topnav {
     width: 100%;
     height: 3em;
-    padding: 0.5em;
     background-color: white;
+}
+
+#topnav h1 {
+    float: left;
+    font: molot, telegrafico, arial black, impact, sans-serif;
+    color: darkred;
 }
 
 #topnavbar {
