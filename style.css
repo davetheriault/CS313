@@ -47,7 +47,9 @@ body {
 
 #profile {
     margin: 1em;
-    background: none;
+    width: 200px;
+    height: 200px;
+    background-image: url('images/face.jpg');
     width: auto;
 }
 
