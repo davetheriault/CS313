@@ -51,6 +51,7 @@ body {
 }
 
 .block {
+    float: left;
     border-radius: 10px;
     background-color: lightyellow;
     color: darkred;
