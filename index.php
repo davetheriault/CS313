@@ -21,11 +21,14 @@
         </div>
         <div id="mainbody">
             <img src="image/face.jpg" alt="Profile Picture"/>
-            <h2>Intro:</h2>
-            <p>My name is David Theriault, and this is my project page for Web Engineering II.</p>
+            <div class="block">
+                <h2>Intro:</h2>
+                My name is David Theriault, and this is my project page for Web Engineering II.
+            </div>
+            <div class="block">
             <h2>Assignments:</h2>
-            <p><a href="assignments.php">Assignments Page</a></p>
-            </ul>
+            <a href="assignments.php">Assignments Page</a>
+            </div>
         </div>
         </div>
         </div>
