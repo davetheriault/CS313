@@ -8,6 +8,7 @@ body {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 #inner {
@@ -15,7 +16,7 @@ body {
 }
 
 #topnav {
-    width: 100%;
+    width: auto;
     height: 3em;
     background-color: lightyellow;
     font: molot, telegrafico, arial black, impact, sans-serif;
