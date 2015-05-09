@@ -50,13 +50,17 @@ body {
     float: left;
 }
 
+#rightmain {
+    float: right;
+    width: 550px;
+}
+
 .block {
     border-radius: 10px;
     background-color: lightyellow;
     color: darkred;
     padding: 1em;
     margin-bottom: .5em;
-    float: right;
 }
 
 .block h2 {
