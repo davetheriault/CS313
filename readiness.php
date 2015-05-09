@@ -20,7 +20,7 @@
             </ul>
         </div>
         <div id="mainbody">
-            <div id="rightmain">
+            
                 <form action="welcome.php" method="post" id="about">
 
                     <div class="block">
@@ -31,27 +31,27 @@
                     </div>
                     <div class="block">
                         Major: <br>
-                        <input type="radio" name="major" value="Computer Science"><br>
-                        <input type="radio" name="major" value="Web Development and Design"><br>
-                        <input type="radio" name="major" value="Computer information Technology"><br>
-                        <input type="radio" name="major" value="Computer Engineering">
+                        <input type="radio" name="major" value="Computer Science">Computer Science<br>
+                        <input type="radio" name="major" value="Web Development and Design">Web Development and Design<br>
+                        <input type="radio" name="major" value="Computer information Technology">Computer information Technology<br>
+                        <input type="radio" name="major" value="Computer Engineering">Computer Engineering
                     </div>
                     <div class="block">
                         Places you have visited: <br>
-                        <input type="checkbox" name="visited" value="North America"><br>
-                        <input type="checkbox" name="visited" value="South America"><br>
-                        <input type="checkbox" name="visited" value="Asia"><br>
-                        <input type="checkbox" name="visited" value="Europe"><br>
-                        <input type="checkbox" name="visited" value="Africa"><br>
-                        <input type="checkbox" name="visited" value="Australia"><br>
-                        <input type="checkbox" name="visited" value="Antartica"><br>
+                        <input type="checkbox" name="visited" value="North America">North America<br>
+                        <input type="checkbox" name="visited" value="South America">South America<br>
+                        <input type="checkbox" name="visited" value="Asia">Asia<br>
+                        <input type="checkbox" name="visited" value="Europe">Europe<br>
+                        <input type="checkbox" name="visited" value="Africa">Africa<br>
+                        <input type="checkbox" name="visited" value="Australia">Australia<br>
+                        <input type="checkbox" name="visited" value="Antarctica">Antarctica<br>
                     </div>
                 </form>
                 <div class="block">
                         Comments: <br>
                         <textarea name="comment" form="about" rows="4" cols="60"></textarea>
             </div>
-        </div>
+        
         </div>
         </div>
     </body>
