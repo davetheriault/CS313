@@ -49,14 +49,14 @@ body {
     margin: 1em;
     width: 200px;
     height: 200px;
-    background-image: url('images/face.jpg');
+    background-image: url("image/face.jpg");
 }
 
 #profile:hover {
     margin: 1em;
     width: 200px;
     height: 200px;
-    background-image: url('images/face2.jpg');
+    background-image: url("image/face2.jpg");
 }
 
 #rightmain {
