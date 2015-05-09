@@ -20,8 +20,9 @@
             </ul>
         </div>
         <div id="mainbody">
+            <!--profile picture-->
             <div id="profile"></div>
-            <br>
+            
             <br>
             <div class="block">
                 <h2>Intro:</h2><br>

@@ -11,9 +11,8 @@ body {
     position: relative;
 }
 
-#inner {
-    max-width: 100%;
-    position: absolute;
+#container #inner {
+    width: 100%;
 }
 
 #topnav {
