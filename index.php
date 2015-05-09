@@ -20,7 +20,8 @@
             </ul>
         </div>
         <div id="mainbody">
-            <img src="image/face.jpg" alt="Profile Picture" id="profile"/>
+            <img src="image/face.jpg" alt="Profile Picture" id="profile"
+                 onmouseover="this.src='image/face.jpg';">
             <br>
             <br>
             <div class="block">
