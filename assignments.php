@@ -20,15 +20,12 @@
             </ul>
         </div>
         <div id="mainbody">
-            <img src="image/face.jpg" alt="Profile Picture" id="profile"/>
             <div id="rightmain">
             <div class="block">
-                <h2>Intro:</h2><br>
-                My name is David Theriault, and this is my project page for Web Engineering II.
+                coming soon
             </div>
             <div class="block">
-                <h2>Assignments:</h2><br>
-            <a href="assignments.php">Assignments Page</a>
+                ...
             </div>
             </div>
         </div>
