@@ -12,6 +12,8 @@ body {
     font: molot, telegrafico, arial black, impact, sans-serif;
     font-size: 20pt;
     color: darkred;
+}
+#maintitle {
     float: left;
 }
 

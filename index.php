@@ -10,7 +10,7 @@
     </head>
     <body>
         <div id="topnav">
-            Introduction
+            <div id="maintitle">Introduction</div>
             <ul id="topnavbar">
                 <li>Home</li>
                 <li>Assignments</li>
