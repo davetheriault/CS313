@@ -20,7 +20,7 @@
             </ul>
         </div>
         <div id="mainbody">
-            <img src="" alt="Profile Picture">
+            <img src="image/face.jpg" alt="Profile Picture"/>
             <h2>Intro:</h2>
             <p>My name is David Theriault, and this is my project page for Web Engineering II.</p>
             <h2>Assignments:</h2>

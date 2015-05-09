@@ -5,7 +5,7 @@ body {
 }
 
 #container {
-    width: 1000px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -40,5 +40,10 @@ body {
 }
 
 #mainbody {
+    margin-top: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
     clear: both;
+    
 }
