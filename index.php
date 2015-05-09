@@ -9,6 +9,8 @@
 
     </head>
     <body>
+        <div id="container">
+            <div id="inner">
         <div id="topnav">
             <div id="maintitle">Introduction</div>
             <ul id="topnavbar">
@@ -24,6 +26,8 @@
             <h2>Assignments:</h2>
             <p><a href="assignments.php">Assignments Page</a></p>
             </ul>
+        </div>
+        </div>
         </div>
     </body>
 </html>
