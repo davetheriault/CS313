@@ -49,6 +49,7 @@ body {
     margin: 1em;
     float: left;
     background: none;
+    width: auto;
 }
 
 #rightmain {
