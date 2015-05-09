@@ -21,12 +21,14 @@
         </div>
         <div id="mainbody">
             <img src="image/face.jpg" alt="Profile Picture"/>
+            <br>
+            <br>
             <div class="block">
-                <h2>Intro:</h2>
+                <h2>Intro:</h2><br>
                 My name is David Theriault, and this is my project page for Web Engineering II.
             </div>
             <div class="block">
-            <h2>Assignments:</h2>
+                <h2>Assignments:</h2><br>
             <a href="assignments.php">Assignments Page</a>
             </div>
         </div>
