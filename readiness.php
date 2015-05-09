@@ -38,13 +38,13 @@
                     </div>
                     <div class="block">
                         Places you have visited: <br>
-                        <input type="checkbox" name="visited" value="North America">North America<br>
-                        <input type="checkbox" name="visited" value="South America">South America<br>
-                        <input type="checkbox" name="visited" value="Asia">Asia<br>
-                        <input type="checkbox" name="visited" value="Europe">Europe<br>
-                        <input type="checkbox" name="visited" value="Africa">Africa<br>
-                        <input type="checkbox" name="visited" value="Australia">Australia<br>
-                        <input type="checkbox" name="visited" value="Antarctica">Antarctica<br>
+                        <input type="checkbox" name="visited[]" value="North America">North America<br>
+                        <input type="checkbox" name="visited[]" value="South America">South America<br>
+                        <input type="checkbox" name="visited[]" value="Asia">Asia<br>
+                        <input type="checkbox" name="visited[]" value="Europe">Europe<br>
+                        <input type="checkbox" name="visited[]" value="Africa">Africa<br>
+                        <input type="checkbox" name="visited[]" value="Australia">Australia<br>
+                        <input type="checkbox" name="visited[]" value="Antarctica">Antarctica<br>
                     </div>
                 </form>
                 <div class="block">

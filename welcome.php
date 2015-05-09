@@ -28,7 +28,7 @@
                 <br>
                 Your are majoring in <?php echo $_POST["major"]; ?><br>
                 <br>
-                You have been to <?php echo $_POST["visited"]; ?><br>
+                You have been to <?php if(isset($_POST["visited"])){ echo $_POST . "<br>"; } ?>
             </div>
             <div class="block">
                 ...
