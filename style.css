@@ -52,6 +52,7 @@ body {
     background-color: lightyellow;
     color: darkred;
     padding: 1em;
+    margin-bottom: .5em;
 }
 
 .block h2 {
