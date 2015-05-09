@@ -48,6 +48,7 @@ body {
 #profile {
     margin: 1em;
     float: left;
+    background: none;
 }
 
 #rightmain {
