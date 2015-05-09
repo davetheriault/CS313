@@ -26,5 +26,6 @@ body {
 #topnavbar li {
     float: left;
     padding-right: 2em;
+    padding-top: 8px;
     font-size: 14pt;
 }
