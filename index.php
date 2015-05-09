@@ -20,7 +20,7 @@
             </ul>
         </div>
         <div id="mainbody">
-            <img src="image/face.jpg" alt="Profile Picture"/>
+            <img src="image/face.jpg" alt="Profile Picture" id="profile"/>
             <br>
             <br>
             <div class="block">
