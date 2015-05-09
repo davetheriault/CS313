@@ -8,4 +8,9 @@ body {
     width: 100%;
     height: 3em;
     margin: 0.5em;
+    background-color: white;
+}
+
+#topnavbar {
+    float: left;
 }

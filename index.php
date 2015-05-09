@@ -11,6 +11,11 @@
     <body>
         <div id="topnav">
             <h1>Introduction</h1>
+            <ul id="topnavbar">
+                <li>Home</li>
+                <li>Assignments</li>
+                <li>Other</li>
+            </ul>
         </div>
         <div id="mainbody">
             <img src="" alt="Profile Picture">
