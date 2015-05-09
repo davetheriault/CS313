@@ -50,7 +50,13 @@ body {
     width: 200px;
     height: 200px;
     background-image: url('images/face.jpg');
-    width: auto;
+}
+
+#profile:hover {
+    margin: 1em;
+    width: 200px;
+    height: 200px;
+    background-image: url('images/face2.jpg');
 }
 
 #rightmain {
