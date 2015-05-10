@@ -11,14 +11,9 @@
     <body>
         <div id="container">
             <div id="inner">
-        <div id="topnav">
-            <div id="maintitle">Introduction</div>
-            <ul id="topnavbar">
-                <li>Home</li>
-                <li>Assignments</li>
-                <li>Other</li>
-            </ul>
-        </div>
+        
+        <?php include 'include/navbar.php'; ?>
+                
         <div id="mainbody">
             <!--profile picture-->
             <div id="profile"></div>

@@ -11,14 +11,9 @@
     <body>
         <div id="container">
             <div id="inner">
-        <div id="topnav">
-            <div id="maintitle">Welcome!</div>
-            <ul id="topnavbar">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="assignments.php">Assignments</a></li>
-                <li>Other</li>
-            </ul>
-        </div>
+        
+           <?php include 'include/navbar.php'; ?>
+
         <div id="mainbody">
             
             <div class="block">
@@ -29,9 +24,9 @@
                 Your are majoring in <?php echo $_POST["major"]; ?><br>
                 <br>
                 You have been to: <br>
-                    <?php if(!empty($_POST["na"])) { echo $_POST["na"] . "<br>";} ?>
-                    <?php if(!empty($_POST["sa"])) { echo $_POST["sa"] . "<br>";} ?>
-                    <?php if(!empty($_POST["as"])) { echo $_POST["as"] . "<br>";} ?>
+                <?php if(!empty($_POST["na"])) { echo $_POST["na"] . "<br>";} ?>
+                <?php if(!empty($_POST["sa"])) { echo $_POST["sa"] . "<br>";} ?>
+                <?php if(!empty($_POST["as"])) { echo $_POST["as"] . "<br>";} ?>
                 <?php if(!empty($_POST["eu"])) { echo $_POST["eu"] . "<br>";} ?>
                 <?php if(!empty($_POST["af"])) { echo $_POST["af"] . "<br>";} ?>
                 <?php if(!empty($_POST["au"])) { echo $_POST["au"] . "<br>";} ?>

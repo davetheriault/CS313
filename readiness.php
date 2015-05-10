@@ -11,14 +11,9 @@
     <body>
         <div id="container">
             <div id="inner">
-        <div id="topnav">
-            <div id="maintitle">Team Readiness Activity</div>
-            <ul id="topnavbar">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="assignments.php">Assignments</a></li>
-                <li>Other</li>
-            </ul>
-        </div>
+                
+                <?php include 'include/navbar.php'; ?>
+
         <div id="mainbody">
             
                 <form action="welcome.php" method="post" id="about">
