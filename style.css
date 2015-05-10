@@ -30,6 +30,11 @@ body {
     float: left;
     margin: 1em;
 }
+#maintitle a, #maintitle a:hover,
+#maintitle a:visited, #maintitle a:active {
+    color: darkred;
+    text-decoration: none;
+}
 
 #topnavbar {
     margin: 1em;
