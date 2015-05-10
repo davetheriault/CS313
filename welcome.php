@@ -28,10 +28,8 @@
                 <br>
                 Your are majoring in <?php echo $_POST["major"]; ?><br>
                 <br>
-                You have been to <?php foreach ($_POST["visited"] as $vst) {
-                                        if(!empty($vst)){
-                                            echo $vst . "<br>";
-                                        } ?>
+                You have been to <?php if(!empty($_POST["na"])) { echo $_POST["na"] . "<br>";} ?>
+                                 <?php if(!empty($_POST["sa"])) { echo $_POST["sa"] . "<br>";} ?>
  }
             </div>
             <div class="block">
