@@ -22,7 +22,7 @@ body {
     width: auto;
     height: 3em;
     background-color: lightyellow;
-    font: impact, arial black;
+    font: Impact, "Arial Black", Gadget, sans-serif;
     font-size: 20pt;
     color: darkred;
 }
