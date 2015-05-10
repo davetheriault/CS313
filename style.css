@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+    
     background-color: lightgray;
 }
 
@@ -52,6 +52,7 @@ body {
     margin-top: 1em;
     margin-bottom: 1em;
     clear: both;
+    font-family: sans-serif;
 }
 
 #profile {
