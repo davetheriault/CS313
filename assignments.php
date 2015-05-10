@@ -11,14 +11,9 @@
     <body>
         <div id="container">
             <div id="inner">
-        <div id="topnav">
-            <div id="maintitle">Assignments</div>
-            <ul id="topnavbar">
-                <li>Home</li>
-                <li>Assignments</li>
-                <li>Other</li>
-            </ul>
-        </div>
+        
+                        <?php include 'include/navbar.php'; ?>
+
         <div id="mainbody">
             
             <div class="block">
