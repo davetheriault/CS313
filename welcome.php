@@ -28,9 +28,17 @@
                 <br>
                 Your are majoring in <?php echo $_POST["major"]; ?><br>
                 <br>
-                You have been to <?php if(!empty($_POST["na"])) { echo $_POST["na"] . "<br>";} ?>
-                                 <?php if(!empty($_POST["sa"])) { echo $_POST["sa"] . "<br>";} ?>
- }
+                You have been to: <br>
+                    <?php if(!empty($_POST["na"])) { echo $_POST["na"] . "<br>";} ?>
+                    <?php if(!empty($_POST["sa"])) { echo $_POST["sa"] . "<br>";} ?>
+                    <?php if(!empty($_POST["as"])) { echo $_POST["as"] . "<br>";} ?>
+                <?php if(!empty($_POST["eu"])) { echo $_POST["eu"] . "<br>";} ?>
+                <?php if(!empty($_POST["af"])) { echo $_POST["af"] . "<br>";} ?>
+                <?php if(!empty($_POST["au"])) { echo $_POST["au"] . "<br>";} ?>
+                <?php if(!empty($_POST["an"])) { echo $_POST["an"] . "<br>";} ?>
+                <br>
+                Comments: <br>
+                <?php echo $_POST["comment"]; ?>
             </div>
             <div class="block">
                 ...
