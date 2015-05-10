@@ -26,7 +26,7 @@ body {
     color: darkred;
 }
 #maintitle {
-    font: Impact, "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     float: left;
     margin: 1em;
 }
@@ -34,11 +34,11 @@ body {
 #maintitle a:visited, #maintitle a:active {
     color: darkred;
     text-decoration: none;
-    font: Impact, "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
 }
 
 #topnavbar {
-    font: Impact, "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     margin: 1em;
     float: left;
 }
@@ -48,7 +48,7 @@ body {
     padding-right: 2em;
     padding-top: 8px;
     font-size: 14pt;
-    font: Impact, "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
 }
 
 #mainbody {
