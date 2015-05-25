@@ -17,7 +17,7 @@
         <div id="mainbody">
             <br>
             <div class="block">
-                <h2>Who is your favorite Teenage Mutant Ninja Turtle?</h2><br>
+                <h2>Who is your favorite Teenage Mutant Ninja Turtle?</h2><br><br>
                 <form action="survey.php" method="post" id="turtle">
                     <input type="radio" name="tmnt" value="1">Leonardo<br>
                     <input type="radio" name="tmnt" value="2">Donatello<br>
@@ -27,7 +27,7 @@
                     <input type="submit" form="turtle"><br>
             </div>
             <div class="block">
-                <h2>View Results</h2><br>
+                <h2>View Results</h2><br><br>
             <a href="assignments.php">Results Page</a>
             </div>
         </div>
