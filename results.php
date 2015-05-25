@@ -11,10 +11,10 @@ $micnum = substr_count($reslts, "4");
 
 $resSum = ($leonum + $donnum + $rapnum + $micnum);
 
-$leoAvg = ($resSum / $leonum);
-$donAvg = ($resSum / $donnum);
-$rapAvg = ($resSum / $rapnum);
-$micAvg = ($resSum / $micnum);
+$leoAvg = ($leonum / $resSum) * 100;
+$donAvg = ($donnum / $resSum) * 100;
+$rapAvg = ($rapnum / $resSum) * 100;
+$micAvg = ($micnum / $resSum) * 100;
 ?>
 <html>
     <head>
@@ -35,16 +35,19 @@ $micAvg = ($resSum / $micnum);
             <div class="block">
                 <h2>Favorite Ninja Turtle:</h2><br><br>
                 <ul class="barGraph">
-                    <?php echo "<li style=\"height: " . $leoAvg . "px; left: 0px;\">" . $leoAvg . "%</li>"; ?>
+                    <?php echo "<li style=\"width: " . $leoAvg . "px; left: 0px;\">Leonardo " . $leoAvg . "%</li>"; ?>
+                    <?php echo "<li style=\"width: " . $donAvg . "px; left: 0px;\">Donatello " . $donAvg . "%</li>"; ?>
+                    <?php echo "<li style=\"width: " . $rapAvg . "px; left: 0px;\">Raphael " . $rapAvg . "%</li>"; ?>
+                    <?php echo "<li style=\"width: " . $micAvg . "px; left: 0px;\">Michaelangelo" . $micAvg . "%</li>"; ?>
                 </ul>
                 
             </div>
         </div>
-                <?php echo 'leonardo votes: ' . $leonum; ?><br>
+        </div>
+        </div>
+        <?php echo 'leonardo votes: ' . $leonum; ?><br>
                 <?php echo 'don votes: ' . $donnum; ?><br>
                 <?php echo 'leo percent: ' . $leoAvg; ?><br>
                 <?php echo 'sum: ' . $resSum; ?>
-        </div>
-        </div>
     </body>
 </html>
