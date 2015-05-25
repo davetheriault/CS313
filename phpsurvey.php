@@ -37,7 +37,7 @@
                 </div>
                 <div class="block">
                     <h2>Who is the coolest ninja turtle villain?</h2>
-                    
+                    <br><br>
                     <input type="radio" name="vil" value="s">Shredder<br>
                     <input type="radio" name="vil" value="k">Krang<br>
                     <input type="radio" name="vil" value="y">Rocksteady<br>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="block">
                     <h2>What is the best Teenage Mutant Ninja Turtle movie?</h2>
-                    
+                    <br><br>
                     <input type="radio" name="movie" value="5">Teenage Mutant Ninja Turtles (1990)<br>
                     <input type="radio" name="movie" value="6">Teenage Mutant Ninja Turtles 2: The Secret of the Ooze<br>
                     <input type="radio" name="movie" value="7">Teenage Mutant Ninja Turtles 3<br>
