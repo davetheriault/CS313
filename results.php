@@ -35,10 +35,10 @@ $micAvg = ($micnum / $resSum) * 100;
             <div class="block">
                 <h2>Favorite Ninja Turtle:</h2><br><br>
                 <ul class="barGraph">
-                    <?php echo "<li style=\"width: " . $leoAvg . "px; left: 0px;\">Leonardo " . $leoAvg . "%</li>"; ?>
-                    <?php echo "<li style=\"width: " . $donAvg . "px; left: 0px;\">Donatello " . $donAvg . "%</li>"; ?>
-                    <?php echo "<li style=\"width: " . $rapAvg . "px; left: 0px;\">Raphael " . $rapAvg . "%</li>"; ?>
-                    <?php echo "<li style=\"width: " . $micAvg . "px; left: 0px;\">Michaelangelo" . $micAvg . "%</li>"; ?>
+                    <?php echo "<li style=\"width: " . $leoAvg . "px; left: 0px;\">Leonardo " . $leoAvg . "%</li>"; ?><br>
+                    <?php echo "<li style=\"width: " . $donAvg . "px; left: 0px;\">Donatello " . $donAvg . "%</li>"; ?><br>
+                    <?php echo "<li style=\"width: " . $rapAvg . "px; left: 0px;\">Raphael " . $rapAvg . "%</li>"; ?><br>
+                    <?php echo "<li style=\"width: " . $micAvg . "px; left: 0px;\">Michaelangelo" . $micAvg . "%</li>"; ?><br>
                 </ul>
                 
             </div>
