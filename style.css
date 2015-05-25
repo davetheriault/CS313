@@ -95,6 +95,7 @@ body {
     }
     
 .barGraph li {
+    background-color: #FAAD65;
     border: 1px solid #555;
     border-left: none;
     position: relative;
@@ -105,8 +106,8 @@ body {
     padding-left: 10px;
     }
     
-    .barGraph li .leobar { background-color: #8671FD; }
-    .barGraph li .donbar { background-color: #CD65FA; }
-    .barGraph li .rapbar { background-color: #FA6565; }
-    .barGraph li .micbar { background-color: #FAAD65; }
+ //   .barGraph li .leobar { background-color: #8671FD; }
+ //   .barGraph li .donbar { background-color: #CD65FA; }
+ //   .barGraph li .rapbar { background-color: #FA6565; }
+ //   .barGraph li .micbar { background-color: #FAAD65; }
     
