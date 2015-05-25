@@ -95,19 +95,19 @@ body {
     }
     
 .barGraph li {
-    background-color: #FAAD65;
+    background-color: transparent;
     border: 1px solid #555;
     border-left: none;
     position: relative;
     text-align: left;
-    height: 40px;
+    height: 2.4em;
     clear: both;
     list-style-type: none;
-    padding-left: 10px;
+    padding: 3px;
     }
     
- //   .barGraph li .leobar { background-color: #8671FD; }
- //   .barGraph li .donbar { background-color: #CD65FA; }
- //   .barGraph li .rapbar { background-color: #FA6565; }
- //   .barGraph li .micbar { background-color: #FAAD65; }
+ .barGraph li.leobar { background-color: #8671FD; }
+ .barGraph li.donbar { background-color: #CD65FA; }
+ .barGraph li.rapbar { background-color: #FA6565; }
+ .barGraph li.micbar { background-color: #FAAD65; }
     
