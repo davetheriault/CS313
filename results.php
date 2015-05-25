@@ -1,4 +1,20 @@
 <?php
+$reslts = file_get_contents($file);
+//number of votes for leonardo
+$leonum = substr_count($reslts, "1");
+//number of votes for donatello
+$donnum = substr_count($reslts, "2");
+//number of votes for raphael
+$rapnum = substr_count($reslts, "3");
+//number of votes for mike
+$micnum = substr_count($reslts, "4");
+
+$resSum = ($leonum + $donnum + $rapnum + $micnum);
+
+$leoAvg = ($resSum / $leonum);
+$donAvg = ($resSum / $donnum);
+$rapAvg = ($resSum / $rapnum);
+$micAvg = ($resSum / $micnum);
 ?>
 <html>
     <head>
@@ -12,15 +28,16 @@
         <div id="container">
             <div id="inner">
         
-                        <?php include 'include/navbar.php'; ?>
+                <?php include 'include/navbar.php'; ?>
 
         <div id="mainbody">
-            
+            <h1>Results</h1>
             <div class="block">
-                <a href="readiness.php">Team Readiness Activity</a>
-            </div>
-            <div class="block">
-                <a href="phpsurvey.php">PHP Survey</a>
+                <h2>Favorite Ninja Turtle:</h2><br><br>
+                <ul class="barGraph">
+                    <?php echo "<li style=\"height: " . $leoAvg . "px; left: 0px;\">" . $leoAvg . "%</li>"; ?>
+                </ul>
+                
             </div>
             
         </div>
