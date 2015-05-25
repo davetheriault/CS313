@@ -96,12 +96,17 @@ body {
     
 .barGraph li {
     border: 1px solid #555;
-    border-bottom: none;
+    border-left: none;
     position: relative;
     text-align: left;
     height: 40px;
     clear: both;
     list-style-type: none;
     padding-left: 10px;
-
     }
+    
+    .barGraph li #leobar { background-color: #8671FD; }
+    .barGraph li #donbar { background-color: #CD65FA; }
+    .barGraph li #rapbar { background-color: #FA6565; }
+    .barGraph li #micbar { background-color: #FAAD65; }
+    

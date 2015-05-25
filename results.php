@@ -35,10 +35,10 @@ $micAvg = round(($micnum / $resSum * 100), 2);
             <div class="block">
                 <h2>Favorite Ninja Turtle:</h2><br><br>
                 <ul class="barGraph">
-                    <?php echo "<li style=\"width: " . $leoAvg . "px; background-color: lightblue; left: 0px;\">Leonardo<br>" . $leoAvg . "%</li>"; ?><br>
-                    <?php echo "<li style=\"width: " . $donAvg . "px; background-color: lightpurple; left: 0px;\">Donatello<br>" . $donAvg . "%</li>"; ?><br>
-                    <?php echo "<li style=\"width: " . $rapAvg . "px; background-color: lightred; left: 0px;\">Raphael<br>" . $rapAvg . "%</li>"; ?><br>
-                    <?php echo "<li style=\"width: " . $micAvg . "px; background-color: lightorange; left: 0px;\">Michaelangelo<br>" . $micAvg . "%</li>"; ?><br>
+                    <?php echo "<li id=\"leobar\" style=\"width: " . $leoAvg . "px; left: 0px;\">Leonardo<br>" . $leoAvg . "%</li>"; ?><br>
+                    <?php echo "<li id=\"donbar\" style=\"width: " . $donAvg . "px; left: 0px;\">Donatello<br>" . $donAvg . "%</li>"; ?><br>
+                    <?php echo "<li id=\"rapbar\" style=\"width: " . $rapAvg . "px; left: 0px;\">Raphael<br>" . $rapAvg . "%</li>"; ?><br>
+                    <?php echo "<li id=\"micbar\" style=\"width: " . $micAvg . "px; left: 0px;\">Michaelangelo<br>" . $micAvg . "%</li>"; ?><br>
                 </ul>
                 
             </div>
