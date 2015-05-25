@@ -91,21 +91,14 @@ body {
 //bar graph
 .barGraph {
     border-bottom: 1px solid #FFF;
-    height: 200px;
-    margin: 0;
-    padding: 0;
     position: relative;
     }
     
 .barGraph li {
     border: 1px solid #555;
     border-bottom: none;
-    bottom: 0;
-    list-style:none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    text-align: center;
+    position: relative;
+    text-align: left;
     height: 40px;
     clear: both;
     }
