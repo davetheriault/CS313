@@ -110,4 +110,6 @@ body {
  .barGraph li.donbar { background-color: #CD65FA; }
  .barGraph li.rapbar { background-color: #FA6565; }
  .barGraph li.micbar { background-color: #FAAD65; }
-    
+ .barGraph li.krabar { background-color: #F7F461; }
+ .barGraph li.rocbar { background-color: #CECECE; }
+ .barGraph li.greenbar { background-color: #7EF085; }

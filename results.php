@@ -105,11 +105,11 @@ $tmn0Avg = round(($numTMNT0 / $movSum * 100), 2);
             <div class="block">
                 <h2>Favorite Movie:</h2><br><?php echo $movSum . ' total votes'; ?> <br>
                 <ul class="barGraph">
-                    <?php echo "<li class=\"greenbar\" style=\"width: " . $tmn1Avg*3 . "px;\">Teenage Mutant Ninja Turtles (1990)<br>" . $tmn1Avg . "%</li>"; ?>
-                    <?php echo "<li class=\"greenbar\" style=\"width: " . $tmn2Avg*3 . "px;\">Teenage Mutant Ninja Turtles 2: The Secret of the Ooze<br>" . $tmn2Avg . "%</li>"; ?>
-                    <?php echo "<li class=\"greenbar\" style=\"width: " . $tmn3Avg*3 . "px;\">Teenage Mutant Ninja Turtles 3<br>" . $tmn3Avg . "%</li>"; ?>
+                    <?php echo "<li class=\"greenbar\" style=\"width: " . $tmn1Avg*3 . "px;\">Teenage_Mutant_Ninja_Turtles_(1990)<br>" . $tmn1Avg . "%</li>"; ?>
+                    <?php echo "<li class=\"greenbar\" style=\"width: " . $tmn2Avg*3 . "px;\">Teenage_Mutant_Ninja_Turtles_2: The Secret of the Ooze<br>" . $tmn2Avg . "%</li>"; ?>
+                    <?php echo "<li class=\"greenbar\" style=\"width: " . $tmn3Avg*3 . "px;\">Teenage_Mutant_Ninja_Turtles_3<br>" . $tmn3Avg . "%</li>"; ?>
                     <?php echo "<li class=\"greenbar\" style=\"width: " . $tmntAvg*3 . "px;\">TMNT<br>" . $tmntAvg . "%</li>"; ?>
-                    <?php echo "<li class=\"greenbar\" style=\"width: " . $tmn0Avg*3 . "px;\">Teenage Mutant Ninja Turtles (2014)<br>" . $tmn0Avg . "%</li>"; ?>
+                    <?php echo "<li class=\"greenbar\" style=\"width: " . $tmn0Avg*3 . "px;\">Teenage_Mutant_Ninja_Turtles_(2014)<br>" . $tmn0Avg . "%</li>"; ?>
                 </ul>
             </div>
         </div>
