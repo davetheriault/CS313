@@ -39,8 +39,11 @@ $micAvg = ($resSum / $micnum);
                 </ul>
                 
             </div>
-            
         </div>
+                <?php echo $leonum; ?>
+                <?php echo $donnum; ?>
+                <?php echo $leoAvg; ?>
+                <?php echo $resSum; ?>
         </div>
         </div>
     </body>
