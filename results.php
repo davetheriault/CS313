@@ -40,10 +40,10 @@ $micAvg = ($resSum / $micnum);
                 
             </div>
         </div>
-                <?php echo $leonum; ?>
-                <?php echo $donnum; ?>
-                <?php echo $leoAvg; ?>
-                <?php echo $resSum; ?>
+                <?php echo 'leonardo votes: ' . $leonum; ?><br>
+                <?php echo 'don votes: ' . $donnum; ?><br>
+                <?php echo 'leo percent: ' . $leoAvg; ?><br>
+                <?php echo 'sum: ' . $resSum; ?>
         </div>
         </div>
     </body>
