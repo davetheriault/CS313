@@ -1,6 +1,6 @@
 <?php
 
-$answer = $_POST["tmnt"] . "\n";
+$answer = $_POST["tmnt"] . "\n " . $_POST["vil"] . "\n " . $_POST["color"] . "\n " . $_POST["movie"] . "\n ";
 
 $file = 'tmntsurvey.txt';
 //open the file existing content
