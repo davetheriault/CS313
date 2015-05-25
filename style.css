@@ -101,4 +101,7 @@ body {
     text-align: left;
     height: 40px;
     clear: both;
+    list-style-type: none;
+    padding-left: 10px;
+
     }

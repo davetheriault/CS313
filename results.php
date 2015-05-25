@@ -11,10 +11,10 @@ $micnum = substr_count($reslts, "4");
 
 $resSum = ($leonum + $donnum + $rapnum + $micnum);
 
-$leoAvg = ($leonum / $resSum) * 100;
-$donAvg = ($donnum / $resSum) * 100;
-$rapAvg = ($rapnum / $resSum) * 100;
-$micAvg = ($micnum / $resSum) * 100;
+$leoAvg = round(($leonum / $resSum * 100), 2);
+$donAvg = round(($donnum / $resSum * 100), 2);
+$rapAvg = round(($rapnum / $resSum * 100), 2);
+$micAvg = round(($micnum / $resSum * 100), 2);
 ?>
 <html>
     <head>
@@ -35,10 +35,10 @@ $micAvg = ($micnum / $resSum) * 100;
             <div class="block">
                 <h2>Favorite Ninja Turtle:</h2><br><br>
                 <ul class="barGraph">
-                    <?php echo "<li style=\"width: " . $leoAvg . "px; left: 0px;\">Leonardo " . $leoAvg . "%</li>"; ?><br>
-                    <?php echo "<li style=\"width: " . $donAvg . "px; left: 0px;\">Donatello " . $donAvg . "%</li>"; ?><br>
-                    <?php echo "<li style=\"width: " . $rapAvg . "px; left: 0px;\">Raphael " . $rapAvg . "%</li>"; ?><br>
-                    <?php echo "<li style=\"width: " . $micAvg . "px; left: 0px;\">Michaelangelo" . $micAvg . "%</li>"; ?><br>
+                    <?php echo "<li style=\"width: " . $leoAvg . "px; background-color: lightblue; left: 0px;\">Leonardo<br>" . $leoAvg . "%</li>"; ?><br>
+                    <?php echo "<li style=\"width: " . $donAvg . "px; background-color: lightpurple; left: 0px;\">Donatello<br>" . $donAvg . "%</li>"; ?><br>
+                    <?php echo "<li style=\"width: " . $rapAvg . "px; background-color: lightred; left: 0px;\">Raphael<br>" . $rapAvg . "%</li>"; ?><br>
+                    <?php echo "<li style=\"width: " . $micAvg . "px; background-color: lightorange; left: 0px;\">Michaelangelo<br>" . $micAvg . "%</li>"; ?><br>
                 </ul>
                 
             </div>
