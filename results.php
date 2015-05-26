@@ -1,6 +1,6 @@
 <?php session_start();
 
-$reslts = file_get_contents($file);
+$reslts = file_get_contents('tmntsurvey.txt');
 //number of votes for leonardo
 $leonum = substr_count($reslts, "1");
 //number of votes for donatello
