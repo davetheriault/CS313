@@ -1,4 +1,5 @@
-<?php
+<?php session_start();
+
 $reslts = file_get_contents($file);
 //number of votes for leonardo
 $leonum = substr_count($reslts, "1");
