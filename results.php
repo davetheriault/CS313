@@ -116,9 +116,5 @@ $tmn0Avg = round(($numTMNT0 / $movSum * 100), 2);
         </div>
         </div>
         </div>
-        <?php echo 'session: ' . $_SESSION['voted']; ?><br>
-                <?php echo 'don votes: ' . $donnum; ?><br>
-                <?php echo 'leo percent: ' . $leoAvg; ?><br>
-                <?php echo 'sum: ' . $resSum; ?>
     </body>
 </html>

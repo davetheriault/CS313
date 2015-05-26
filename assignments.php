@@ -22,6 +22,12 @@
             <div class="block">
                 <h2><a href="tmntsurvey.php">PHP Survey</a></h2>
             </div>
+            <div class="block">
+                empty
+            </div>
+            <div class="block">
+                <a href="endsession.php">******</a>
+            </div>
             
         </div>
         </div>
