@@ -1,4 +1,4 @@
-<?php if ($_SESSION['voted'] == 'voted') {header("Location: results.php"); exit(); ?>
+<?php if ($_SESSION['voted'] == 'voted') {header("Location: /results.php"); exit();} ?>
 <html>
     <head>
         <title>CS313 Survey</title>
