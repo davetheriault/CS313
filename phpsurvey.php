@@ -1,4 +1,5 @@
-<?php if ($_SESSION['voted'] == 'voted') {header("Location: http://php-dtheriault.rhcloud.com/results.php"); } ?>
+<?php  
+?>
 <html>
     <head>
         <title>CS313 Survey</title>

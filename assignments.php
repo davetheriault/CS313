@@ -17,10 +17,10 @@
         <div id="mainbody">
             
             <div class="block">
-                <a href="readiness.php">Team Readiness Activity</a>
+                <h2><a href="readiness.php">Team Readiness Activity</a></h2>
             </div>
             <div class="block">
-                <a href="phpsurvey.php">PHP Survey</a>
+                <h2><a href="tmntsurvey.php">PHP Survey</a></h2>
             </div>
             
         </div>
