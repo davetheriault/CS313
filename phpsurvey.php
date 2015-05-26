@@ -15,8 +15,7 @@
         <?php include 'include/navbar.php'; ?>
                 
         <div id="mainbody">
-            <h2><?php if (isset($_SESSION['voted'])){
-                    echo 'Looks like you already completed the survey.';} ?></h2>
+            
             <br>
             <form action="survey.php" method="post" id="turtle">
                 <div class="block">
