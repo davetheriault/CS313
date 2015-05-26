@@ -76,7 +76,7 @@ $tmn0Avg = round(($numTMNT0 / $movSum * 100), 2);
 
         <div id="mainbody">
             <h2><?php if (isset($_SESSION['voted'])){
-                echo 'Looks like you already completed the survey.';} ?></h2><br>
+                echo 'Looks like you already completed the survey.';} ?></h2>
             <h1>Results</h1>
             <div class="block">
                 <h2>Favorite Ninja Turtle:</h2><br><?php echo $resSum . ' total votes'; ?><br>

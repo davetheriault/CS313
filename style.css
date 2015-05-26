@@ -76,6 +76,10 @@ body {
     float: right;
 }
 
+h2 {
+    display: inline;
+}
+
 .block {
     border-radius: 10px;
     background-color: lightyellow;
