@@ -1,4 +1,6 @@
-<?php
+<?php session_start();
+
+$_SESSION['voted'] = 'voted';
 
 $answer = $_POST["tmnt"] . "\n " . $_POST["vil"] . "\n " . $_POST["color"] . "\n " . $_POST["movie"] . "\n ";
 

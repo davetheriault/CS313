@@ -1,4 +1,6 @@
-<?php
+<?php if (isset($_SESSION['voted'])) {
+            header("Location: results.php");
+            }
 ?>
 <html>
     <head>
@@ -55,6 +57,8 @@
             </form>
             <div class="block">
                 <input type="submit" form="turtle"><br>
+            </div>
+            <div class="block">                
                 <h2>View Results</h2><br><br>
             <a href="assignments.php">Results Page</a>
             </div>
