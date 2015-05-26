@@ -15,6 +15,8 @@
         <?php include 'include/navbar.php'; ?>
                 
         <div id="mainbody">
+            <h2><?php if (isset($_SESSION['voted'])){
+                    echo 'Looks like you already completed the survey.';} ?></h2>
             <br>
             <form action="survey.php" method="post" id="turtle">
                 <div class="block">
@@ -58,11 +60,10 @@
             </div>
             <div class="block">                
                 <h2>View Results</h2><br><br>
-            <a href="assignments.php">Results Page</a>
+                <a href="results.php">Results Page</a>
             </div>
         </div>
         </div>
         </div>
-        <?php echo 'session: ' . $_SESSION['voted']; ?><br>
     </body>
 </html>
