@@ -63,5 +63,6 @@
         </div>
         </div>
         </div>
+        <?php echo 'session: ' . $_SESSION['voted']; ?><br>
     </body>
 </html>
