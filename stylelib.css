@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    
+    background-color: gray;
 }
 
 #container {
@@ -20,7 +20,7 @@ body {
 }
 
 #inner {
-    background-color: lightgreen;
+    background-color: #FFFD91;
 }
 
 #topnav {
