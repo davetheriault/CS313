@@ -13,13 +13,11 @@
                 <div id="topnav">
                     <div id="maintitle">MOUNT-BRUNO</div>
                     
-                        <ul id="topnavbar">
-                            <li>Home</li>
-                            <li>Books</li>
-                            <li></li>
-                        </ul>
-                    
-                    
+                    <ul id="topnavbar">
+                        <li>Home</li>
+                        <li>Books</li>
+                        <li></li>
+                    </ul>                    
                 </div>
                 Blah Blah Blah...
             </div>            
