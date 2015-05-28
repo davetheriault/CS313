@@ -11,7 +11,7 @@
         <div id="container">
             <div id="inner">
                 <div id="topnav">
-                    <div id="maintitle">MOUNT-BRUNO</div>
+                    <div><div id="maintitle">MOUNT-BRUNO</div><br>Library</div>
                     
                     <ul id="topnavbar">
                         <li>Home</li>
