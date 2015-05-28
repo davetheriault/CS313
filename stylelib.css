@@ -33,7 +33,7 @@ body {
 #maintitle {
     font-family: Impact, Charcoal, sans-serif;
     float: left;
-    margin: 1em;
+    margin: .5em 1em .5em 1em;
 }
 #maintitle a, #maintitle a:hover,
 #maintitle a:visited, #maintitle a:active {
