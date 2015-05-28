@@ -10,15 +10,15 @@
     <body>
         <div id="container">
             <div id="inner">
-                <div id="topnavbar">
+                <div id="topnav">
                     <div id="maintitle">MOUNT-BRUNO</div>
-                    <div id="topmenu">
-                        <ul>
+                    
+                        <ul id="topnavbar">
                             <li>Home</li>
                             <li>Books</li>
                             <li></li>
                         </ul>
-                    </div>
+                    
                     
                 </div>
             </div>            
