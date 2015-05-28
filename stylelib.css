@@ -14,7 +14,7 @@ body {
     position: relative;
 }
 
-#container #inner {
+body #container #inner {
     width: 100%;
     background-color: #F7F461;
 }
