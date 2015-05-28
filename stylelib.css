@@ -1,0 +1,120 @@
+html {
+    overflow-y:scroll;
+}
+
+body {
+    
+    background-color: black;
+}
+
+#container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#container #inner {
+    width: 100%;
+    background-color: #F7F461;
+}
+
+#topnav {
+    width: auto;
+    height: 3em;
+    background-color: gold;
+    font-size: 20pt;
+    color: black;
+}
+#maintitle {
+    font-family: Impact, Charcoal, sans-serif;
+    float: left;
+    margin: 1em;
+}
+#maintitle a, #maintitle a:hover,
+#maintitle a:visited, #maintitle a:active {
+    color: darkred;
+    text-decoration: none;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+#topnavbar {
+    font-family: Impact, Charcoal, sans-serif;
+    margin: 1em;
+    float: left;
+}
+
+#topnavbar li {
+    float: left;
+    padding-right: 2em;
+    padding-top: 8px;
+    font-size: 14pt;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+#mainbody {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    clear: both;
+    font-family: sans-serif;
+}
+
+#profile {
+    margin: 1em;
+    width: 200px;
+    height: 200px;
+    background-image: url("image/face.jpg");
+}
+
+#profile:hover {
+    margin: 1em;
+    width: 200px;
+    height: 200px;
+    background-image: url("image/face2.jpg");
+}
+
+#rightmain {
+    float: right;
+}
+
+h2 {
+    display: inline;
+}
+
+.block {
+    border-radius: 10px;
+    background-color: lightyellow;
+    color: darkred;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.block h2 {
+    display: inline;
+}
+
+//bar graph
+.barGraph {
+    border-bottom: 1px solid #FFF;
+    position: relative;
+    }
+    
+.barGraph li {
+    background-color: transparent;
+    border: 1px solid #555;
+    border-left: none;
+    position: relative;
+    text-align: left;
+    height: 2.4em;
+    clear: both;
+    list-style-type: none;
+    padding: 5px;
+    }
+    
+ .barGraph li.leobar { background-color: #8671FD; }
+ .barGraph li.donbar { background-color: #CD65FA; }
+ .barGraph li.rapbar { background-color: #FA6565; }
+ .barGraph li.micbar { background-color: #FAAD65; }
+ .barGraph li.krabar { background-color: #F7F461; }
+ .barGraph li.rocbar { background-color: #CECECE; }
+ .barGraph li.greenbar { background-color: #7EF085; }
