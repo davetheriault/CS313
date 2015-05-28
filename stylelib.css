@@ -14,9 +14,12 @@ body {
     position: relative;
 }
 
-body #container #inner {
+#container #inner {
     width: 100%;
-    background-color: #F7F461;
+}
+
+#inner {
+    background-color: lightgreen;
 }
 
 #topnav {
