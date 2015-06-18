@@ -15,7 +15,7 @@
                         <?php include 'include/navbar.php'; ?>
 
         <div id="mainbody">
-            
+            <h1>Assignments</h1>
             <div class="block">
                 <h2><a href="readiness.php">Team Readiness Activity</a></h2>
             </div>
