@@ -17,19 +17,13 @@ require 'include/dbConnection.php';
                         <?php include 'include/navbar.php'; ?>
 
         <div id="mainbody">
-            
+            <h1>Scripture Resources</h1>
             <?php 
             foreach ($db->query('SELECT book, chapter, verse, content FROM scriptures') as $row){
                 echo '<div class="block"><strong>'. $row['book'] . ' ' . $row['chapter'] . ':' . $row['verse'] . '</strong> - "'
                         . $row['content'] . '"</div>';
             }
             ?>
-            <div class="block">
-                <h2><a href="readiness.php">Team Readiness Activity</a></h2>
-            </div>
-            <div class="block">
-                <a href="endsession.php">******</a>
-            </div>
             
         </div>
         </div>
