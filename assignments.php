@@ -29,6 +29,9 @@
                 <h2><a href="scripture.php">Scripture Resources (TRA Lesson 04)</a></h2>
             </div>
             <div class="block">
+                <a href="libraryhome.php"></a>
+            </div>
+            <div class="block">
                 <a href="endsession.php">******</a>
             </div>
             
