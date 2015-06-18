@@ -18,20 +18,14 @@ require 'include/dbConnection.php';
 
         <div id="mainbody">
             
-            <?php
-            foreach ($db->query('SELECT * FROM Scriptures') as $row){
+            <?php 
+            foreach ($db->query('SELECT book, chapter, verse, content FROM scriptures') as $row){
                 echo '<div class="block"><strong>'. $row['book'] . ' ' . $row['chapter'] . ':' . $row['verse'] . '</strong> - \"'
                         . $row['content'] . '\"</div>';
             }
             ?>
             <div class="block">
                 <h2><a href="readiness.php">Team Readiness Activity</a></h2>
-            </div>
-            <div class="block">
-                <h2><a href="tmntsurvey.php">PHP Survey</a></h2>
-            </div>
-            <div class="block">
-                <h2><a href="libraryhome.php">PHP Library App</a></h2>
             </div>
             <div class="block">
                 <a href="endsession.php">******</a>
