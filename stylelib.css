@@ -37,7 +37,7 @@ body {
 }
 #maintitle a, #maintitle a:hover,
 #maintitle a:visited, #maintitle a:active {
-    color: darkred;
+    color: #555;
     text-decoration: none;
     font-family: Impact, Charcoal, sans-serif;
 }
@@ -85,13 +85,30 @@ h2 {
 
 .block {
     border-radius: 10px;
-    background-color: lightyellow;
+    background-color: #555;
     color: darkred;
     padding: 1em;
     margin-bottom: 1em;
 }
 
-.block h2 {
+.block a {
+    text-decoration: none;
+    color: yellow;
+}
+.block a:active {
+    text-decoration: none;
+    color: gray;
+}
+.block a:visited {
+    text-decoration: none;
+    color: #CCCC00;
+}
+.block a:hover {
+    text-decoration: none;
+    color: #FFCC00;
+}
+
+.block h {
     display: inline;
 }
 

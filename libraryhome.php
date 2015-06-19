@@ -20,13 +20,13 @@
                     </ul>                    
                 </div>
                 <div id="mainbody">
-                    <h1>Browse Books</h1>
+                    <h2>Browse Books</h2>
                     
                     <div class="block">
-                        <h2><a href="">Browse by Title</a></h2>
+                        <h3><a href="">Browse by Title</a></h3>
                     </div>
                     <div class="block">
-                        <h2><a href="">Browse by Author</a></h2>
+                        <h3><a href="">Browse by Author</a></h3>
                     </div>
                 </div>
             </div>            
