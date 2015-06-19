@@ -148,5 +148,6 @@ h2 {
      text-decoration: none;
      cursor: pointer;
      size: 2em;
-     font-family: sans-serif; 
+     font-family: sans-serif;
+     font-weight: bold;
  }

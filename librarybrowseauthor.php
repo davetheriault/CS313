@@ -23,7 +23,7 @@ require 'include/dbConnection.php';
                         foreach ($db->query('SELECT author FROM book') as $row){
                             echo '<div class="block"><form action="author.php" method="get" id="author">'
                                     . '<input class="submitbutton" type="submit" form="author" value="' . $row['author'] . '">'
-                                    . $row['author'] . '</form></div>';
+                                    . '</form></div>';
                         }
                     ?>
                     
