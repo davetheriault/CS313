@@ -16,10 +16,19 @@
                     <ul id="topnavbar">
                         <li>Home</li>
                         <li>Books</li>
-                        <li></li>
+                        <li>Login</li>
                     </ul>                    
                 </div>
-                Blah Blah Blah...
+                <div>
+                    <h1>Browse Books</h1>
+                    
+                    <div class="block">
+                        <h2><a href="">Browse by Title</a></h2>
+                    </div>
+                    <div class="block">
+                        <h2><a href="">Browse by Author</a></h2>
+                    </div>
+                </div>
             </div>            
         </div>
     </body>
