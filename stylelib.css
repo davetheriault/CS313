@@ -144,7 +144,9 @@ h2 {
  .submitbutton {
      background: none;
      border: none;
-     
+     color: #FFFF66;
      text-decoration: none;
      cursor: pointer;
+     size: 2em;
+     font-family: sans-serif; 
  }
