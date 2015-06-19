@@ -147,7 +147,8 @@ h2 {
      color: #FFFF66;
      text-decoration: none;
      cursor: pointer;
-     size: 2em;
+     size: 3em;
      font-family: sans-serif;
      font-weight: bold;
+     display: inline;
  }
