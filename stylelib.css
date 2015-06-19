@@ -85,8 +85,8 @@ h2 {
 
 .block {
     border-radius: 10px;
-    background-color: #555;
-    color: darkred;
+    background-color: black;
+    color: yellow;
     padding: 1em;
     margin-bottom: 1em;
     clear: both;
