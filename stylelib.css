@@ -56,8 +56,7 @@ body {
 }
 
 #mainbody {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin: 1.25em;
     clear: both;
     font-family: sans-serif;
 }

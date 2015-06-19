@@ -19,7 +19,7 @@
                         <li>Login</li>
                     </ul>                    
                 </div>
-                <div>
+                <div id="mainbody">
                     <h1>Browse Books</h1>
                     
                     <div class="block">
