@@ -108,7 +108,7 @@ h2 {
     color: #FFCC00;
 }
 
-.block h {
+.block h2, .block h3 {
     display: inline;
 }
 
