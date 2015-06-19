@@ -140,3 +140,11 @@ h2 {
  .barGraph li.krabar { background-color: #F7F461; }
  .barGraph li.rocbar { background-color: #CECECE; }
  .barGraph li.greenbar { background-color: #7EF085; }
+ 
+ .submitbutton {
+     background: none;
+     border: none;
+     
+     text-decoration: none;
+     cursor: pointer;
+ }
