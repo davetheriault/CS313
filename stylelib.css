@@ -21,6 +21,7 @@ body {
 
 #inner {
     background-color: #FFFD91;
+    float: inside;
 }
 
 #topnav {
