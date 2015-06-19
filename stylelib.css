@@ -90,13 +90,13 @@ h2 {
     padding: 1em;
     margin-bottom: 1em;
     clear: both;
-    max-width: 500px;
+    max-width: 300px;
         
 }
 
 .block a {
     text-decoration: none;
-    color: #FFFF59;
+    color: #FFFF66;
 }
 .block a:active {
     text-decoration: none;
