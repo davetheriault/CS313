@@ -20,10 +20,12 @@ require 'include/dbConnection.php';
                     <br><br>
                     
                     <?php 
-                        foreach ($db->query('SELECT author FROM book') as $row){
+                        foreach ($db->query('SELECT DISTINCT author FROM book') as $row){
+                            if (TRUE){
                             echo '<div class="block"><form action="author.php" method="get" id="author">'
                                     . '<input class="submitbutton" type="submit" form="author" value="' . $row['author'] . '">'
                                     . '</form></div>';
+                        }
                         }
                     ?>
                     
