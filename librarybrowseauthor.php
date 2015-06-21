@@ -22,8 +22,8 @@ require 'include/dbConnection.php';
                     <?php 
                         foreach ($db->query('SELECT DISTINCT author FROM book') as $row){
                             if (TRUE){
-                            echo '<div class="block"><form action="author.php" method="get" id="author">'
-                                    . '<input class="submitbutton" type="submit" form="author" value="' . $row['author'] . '">'
+                            echo '<div class="block"><form action="author.php" method="get" id="' . $row['author'] . '">'
+                                    . '<input class="submitbutton" type="submit" form="' . $row['author'] . '" value="' . $row['author'] . '">'
                                     . '</form></div>';
                         }
                         }
