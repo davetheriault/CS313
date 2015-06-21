@@ -19,7 +19,7 @@ require 'include/dbConnection.php';
                     <br><br>
                     
                     <?php 
-                        foreach ($db->query('SELECT title FROM book WHERE author = $_GET[\'auth\']') as $row){
+                        foreach ($db->query('SELECT title FROM book') as $row){
                             echo '<div class="block"><form action="book.php" method="get" id="' . str_replace(' ', '', $_GET['auth']) . '">'
                                     . '<input name="book" class="submitbutton" type="submit" form="' . str_replace(' ', '', $_GET['auth']) . '" value="' . $row['title'] . '">'
                                     . '</form></div>';
