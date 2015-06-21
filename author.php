@@ -19,13 +19,12 @@ require 'include/dbConnection.php';
                     <br><br>
                     
                     <?php 
-                        foreach ($db->query('SELECT DISTINCT author FROM book') as $row){
-                            if (TRUE){
-                            echo '<div class="block"><form action="author.php" method="get" id="author">'
-                                    . '<input class="submitbutton" type="submit" form="author" value="' . $row['author'] . '">'
+                        foreach ($db->query('SELECT DISTINCT title FROM book WHERE author='.$_GET['auth']) as $row){
+                            echo '<div class="block"><form action="book.php" method="get" id="' . str_replace(' ', '', $_GET['auth']) . '">'
+                                    . '<input name="book" class="submitbutton" type="submit" form="' . str_replace(' ', '', $_GET['auth']) . '" value="' . $row['title'] . '">'
                                     . '</form></div>';
                         }
-                        }
+                        
                     ?>
                     
                     <div class="block">

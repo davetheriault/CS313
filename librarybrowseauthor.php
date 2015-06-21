@@ -21,11 +21,9 @@ require 'include/dbConnection.php';
                     
                     <?php 
                         foreach ($db->query('SELECT DISTINCT author FROM book') as $row){
-                            if (TRUE){
                             echo '<div class="block"><form action="author.php" method="get" id="' . str_replace(' ', '', $row['author']) . '">'
                                     . '<input name="auth" class="submitbutton" type="submit" form="' . str_replace(' ', '', $row['author']) . '" value="' . $row['author'] . '">'
                                     . '</form></div>';
-                        }
                         }
                     ?>
                     
