@@ -3,7 +3,7 @@ require 'include/dbConnection.php';
 ?>
 <html>
     <head>
-        <title><?php echo $_GET; ?></title>
+        <title><?php echo $_GET['auth']; ?></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="stylelib.css" type="text/css">
@@ -15,7 +15,7 @@ require 'include/dbConnection.php';
                 include 'include/libNavBar.php';
                 ?>
                 <div id="mainbody">
-                    <h2>Books by <?php echo $_GET; ?></h2>
+                    <h2>Books by <?php echo $_GET['auth']; ?></h2>
                     <br><br>
                     
                     <?php 
