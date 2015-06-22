@@ -21,10 +21,10 @@ require 'include/dbConnection.php';
                     <?php 
                         foreach ($db->query('SELECT title, author, status, genre FROM book') as $row){
                             if ($row['title'] == $_GET['book']){
-                            echo '<div class="block"><h3>Title:</h3><br>' . $row['title'] . '</div> \n';
-                            echo '<div class="block"><h3>Author:</h3><br>' . $row['author'] . '</div> \n';
-                            echo '<div class="block"><h3>Genre:</h3><br>' . $row['genre'] . '</div> \n';
-                            echo '<div class="block"><h3>Status:</h3><br>' . $row['status'] . '</div> \n';
+                            echo '<div class="block"><h3>Title:</h3><br><br><div style="color: white">' . $row['title'] . '</div></div>';
+                            echo '<div class="block"><h3>Author:</h3><br><br><div style="color: white">' . $row['author'] . '</div></div>';
+                            echo '<div class="block"><h3>Genre:</h3><br><br><div style="color: white">' . $row['genre'] . '</div></div>';
+                            echo '<div class="block"><h3>Status:</h3><br><br><div style="color: white">' . $row['status'] . '</div></div>';
                         }
                         }
                     ?>
