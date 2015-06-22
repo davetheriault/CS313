@@ -21,15 +21,15 @@ require 'include/dbConnection.php';
                     <?php 
                         foreach ($db->query('SELECT title, author, status, genre FROM book') as $row){
                             if ($row['title'] == $_GET['book']){
-                                echo '<div class="block"><h3>Title:</h3><br><br><div style="color: white">' . $row['title'] . '</div></div>';
-                                echo '<div class="block"><h3>Author:</h3><br><br><div style="color: white">' . $row['author'] . '</div></div>';
-                                echo '<div class="block"><h3>Genre:</h3><br><br><div style="color: white">' . $row['genre'] . '</div></div>';
+                                echo '<div class="block"><h3>Title:</h3><div style="color: white">' . $row['title'] . '</div></div>';
+                                echo '<div class="block"><h3>Author:</h3><div style="color: white">' . $row['author'] . '</div></div>';
+                                echo '<div class="block"><h3>Genre:</h3><div style="color: white">' . $row['genre'] . '</div></div>';
                                 if ($row['status'] == 'Available') {
-                                    echo '<div class="block"><h3>Status:</h3><br><form id="reserv" method="post" action="cart.php">'
+                                    echo '<div class="block"><h3>Status:</h3><form id="reserv" method="post" action="cart.php">'
                                             . '<div style="color: white">' . $row['status'] . '</div>'
                                             . '<button type="submit" form="reserv" value="Reserve">Reserve</button></form></div>';
                                 } else {
-                                    echo '<div class="block"><h3>Status:</h3><br><br><div style="color: white">' . $row['status'] . '</div></div>';
+                                    echo '<div class="block"><h3>Status:</h3><div style="color: white">' . $row['status'] . '</div></div>';
                                 }
                             }
                         }
