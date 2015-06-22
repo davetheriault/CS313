@@ -17,15 +17,21 @@ require 'include/dbConnection.php';
                 <div id="mainbody">
                     <h2><?php echo $_GET['book']; ?></h2>
                     <br><br>
-                    
+                    <form id="reserv" method="post" action="cart.php"><button type="submit" form="reserv" value="Reserve">Reserve</button></form>
                     <?php 
                         foreach ($db->query('SELECT title, author, status, genre FROM book') as $row){
                             if ($row['title'] == $_GET['book']){
-                            echo '<div class="block"><h3>Title:</h3><br><br><div style="color: white font-size: larger">' . $row['title'] . '</div></div>';
-                            echo '<div class="block"><h3>Author:</h3><br><br><div style="color: white font-size: larger">' . $row['author'] . '</div></div>';
-                            echo '<div class="block"><h3>Genre:</h3><br><br><div style="color: white font-size: larger">' . $row['genre'] . '</div></div>';
-                            echo '<div class="block"><h3>Status:</h3><br><br><div style="color: white font-size: larger">' . $row['status'] . '</div></div>';
-                        }
+                                echo '<div class="block"><h3>Title:</h3><br><br><div style="color: white">' . $row['title'] . '</div></div>';
+                                echo '<div class="block"><h3>Author:</h3><br><br><div style="color: white">' . $row['author'] . '</div></div>';
+                                echo '<div class="block"><h3>Genre:</h3><br><br><div style="color: white">' . $row['genre'] . '</div></div>';
+                                if ($row['status'] == 'Available') {
+                                    echo '<div class="block"><h3>Status:</h3><br><br><div style="color: white">' . $row['status'] . '</div>'
+                                            . '<form id="reserv" method="post" action="cart.php">'
+                                            . '<button type="submit" form="reserv" value="Reserve">Reserve</button></form></div>';
+                                } else {
+                                    echo '<div class="block"><h3>Status:</h3><br><br><div style="color: white">' . $row['status'] . '</div></div>';
+                                }
+                            }
                         }
                     ?>
                     
