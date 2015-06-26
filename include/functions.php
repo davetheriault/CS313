@@ -1,0 +1,10 @@
+<?php
+
+
+function checkOut($book) {
+    
+    
+    
+}
+
+?>
